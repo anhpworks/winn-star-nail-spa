@@ -1,3 +1,15 @@
+.servicebox {
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.servicesheader {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
 a, a:hover, a:focus, a:active {
    text-decoration: none;
    color: rgb(90, 44, 23);
@@ -9,11 +21,9 @@ a, a:hover, a:focus, a:active {
 }
 
 img {
-   max-width: 100%;
+   max-width: 1224px;
    height: auto;
-   width: 1000px;
-
-   display:flex;
+   width: 100%;
 }
 
 .buttonheader {
@@ -42,3 +52,4 @@ a.nav-link:hover {
 body {
    background-color: rgb(226, 211, 211);
 }
+
