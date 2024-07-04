@@ -1,5 +1,44 @@
+a, a:hover, a:focus, a:active {
+   text-decoration: none;
+   color: rgb(90, 44, 23);
+}
+.logoheader {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 img {
    max-width: 100%;
    height: auto;
-   width: auto\9; /* ie8 */
+   width: 1000px;
+
+   display:flex;
+}
+
+.buttonheader {
+   display: flex;
+}
+
+.aboutbutton, .contactbutton, .servicesbutton, .bookbutton {
+   align-items: center;
+   display: flex;
+   flex: 1;
+   flex-direction: row;
+   justify-content: center;
+}
+
+a {
+   text-decoration: none;
+   text-emphasis-color: rgb(255, 168, 69);
+   text-decoration-color: rgb(255, 255, 255);
+   text
+}
+
+a.nav-link:hover {
+   color: orange;
+}
+
+body {
+   background-color: rgb(226, 211, 211);
 }
