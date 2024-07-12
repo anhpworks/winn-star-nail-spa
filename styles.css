@@ -40,7 +40,7 @@ img {
 
 a {
    text-decoration: none;
-   text-emphasis-color: rgb(255, 168, 69);
+   text-emphasis-color: rgb(255, 168, 69);ßß
    text-decoration-color: rgb(255, 255, 255);
    text
 }
@@ -50,6 +50,12 @@ a.nav-link:hover {
 }
 
 body {
-   background-color: rgb(226, 211, 211);
+   /* background-color: rgb(226, 211, 211); */
 }
 
+
+.manipedibox {
+   outline: 2px solid orange;
+   padding: 10px;
+   margin: 10px;
+}
