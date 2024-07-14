@@ -40,9 +40,8 @@ img {
 
 a {
    text-decoration: none;
-   text-emphasis-color: rgb(255, 168, 69);ßß
+   text-emphasis-color: rgb(255, 168, 69);
    text-decoration-color: rgb(255, 255, 255);
-   text
 }
 
 a.nav-link:hover {
@@ -51,11 +50,59 @@ a.nav-link:hover {
 
 body {
    /* background-color: rgb(226, 211, 211); */
+   background-color: rgb(255, 255, 255);
 }
 
 
-.manipedibox {
-   outline: 2px solid orange;
-   padding: 10px;
-   margin: 10px;
+.font {
+   font-family: serif;
+}
+
+.tabs {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 60%;
+   font-family: sans-serif;
+   padding-left: 3%;
+   padding-right: 3%;
+   flex: 1;
+ }
+ 
+ .tabs__label {
+   padding: 10px 16px;
+   padding-top: 100px;
+   cursor: pointer;
+ }
+ 
+ .tabs__radio {
+   display: none;
+ }
+ 
+ .tabs__content {
+   order: 1;
+   width: 100%;
+   border-bottom: 3px solid #000000;
+   line-height: 1.5;
+   font-size: 0.9em;
+   display: none;
+   padding: 50px;
+   
+ }
+ 
+ .tabs__radio:checked + .tabs__label {
+   font-weight: bold;
+   color: #f26722;
+   border-bottom: 2px solid #f26722;
+ }
+ 
+ .tabs__radio:checked + .tabs__label + .tabs__content {
+   display: initial;
+ }
+ 
+
+ 
+.manicurecontentbox {
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
 }
