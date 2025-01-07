@@ -25,7 +25,7 @@ const Services = () => {
       { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
-    ]
+    ],
     waxing: [
       { name: "Eyebrows", price: "12", description: "Precise shaping and grooming" },
       { name: "Upper Lip", price: "8", description: "Gentle hair removal" },
