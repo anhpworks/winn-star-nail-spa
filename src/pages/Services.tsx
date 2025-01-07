@@ -26,6 +26,12 @@ const Services = () => {
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
     ]
+    waxing: [
+      { name: "Eyebrows", price: "12", description: "Precise shaping and grooming" },
+      { name: "Upper Lip", price: "8", description: "Gentle hair removal" },
+      { name: "Chin", price: "10", description: "Thorough hair removal" },
+      { name: "Full Face", price: "40", description: "Complete facial hair removal treatment" }
+    ]
   };
 
   const ServiceSection = ({ title, items }: { title: string, items: any[] }) => (
