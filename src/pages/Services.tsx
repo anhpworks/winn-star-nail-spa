@@ -20,17 +20,17 @@ const Services = () => {
       { name: "Acrylic Fill", price: "40", description: "Maintenance for acrylic nails" },
       { name: "Nail Repair", price: "5+", description: "Per nail fix or replacement" }
     ],
-    additional: [
-      { name: "French Tips", price: "7/10", description: "Classic white tips addition" },
-      { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
-      { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
-      { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
-    ],
     waxing: [
       { name: "Eyebrows", price: "12", description: "Precise shaping and grooming" },
       { name: "Upper Lip", price: "8", description: "Gentle hair removal" },
       { name: "Chin", price: "10", description: "Thorough hair removal" },
       { name: "Full Face", price: "40", description: "Complete facial hair removal treatment" }
+    ],
+    additional: [
+      { name: "French Tips", price: "7/10", description: "Classic white tips addition" },
+      { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
+      { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
+      { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
     ]
   };
 
@@ -58,6 +58,7 @@ const Services = () => {
         <ServiceSection title="Manicures" items={services.manicures} />
         <ServiceSection title="Pedicures" items={services.pedicures} />
         <ServiceSection title="Nail Enhancements" items={services.enhancements} />
+        <ServiceSection title="Waxing Services" items={services.waxing} />
         <ServiceSection title="Additional Services" items={services.additional} />
         
         <div className="text-center mt-12">
