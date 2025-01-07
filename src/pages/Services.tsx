@@ -3,28 +3,28 @@ import React from 'react';
 const Services = () => {
   const services = {
     manicures: [
-      { name: "Classic Manicure", price: "25", description: "Nail shaping, cuticle care, hand massage, polish" },
+      { name: "Classic Manicure", price: "20", description: "Nail shaping, cuticle care, hand massage, polish" },
       { name: "Gel Manicure", price: "35", description: "Classic manicure with long-lasting gel polish" },
-      { name: "Deluxe Manicure", price: "45", description: "Extended massage, premium products, paraffin treatment" },
+      { name: "Royal Manicure", price: "37", description: "Extended massage, premium products, paraffin treatment" },
       { name: "Dip Powder", price: "45", description: "Durable, chip-resistant alternative to traditional polish" }
     ],
     pedicures: [
-      { name: "Classic Pedicure", price: "35", description: "Foot soak, callus removal, nail care, massage" },
-      { name: "Deluxe Pedicure", price: "55", description: "Extended massage, hot stone, premium scrub" },
-      { name: "Luxury Spa Pedicure", price: "75", description: "Premium treatment with paraffin, mask, extended massage" },
-      { name: "Kids Pedicure", price: "25", description: "Gentle care for children under 12" }
+      { name: "Classic Pedicure", price: "33", description: "Foot soak, callus removal, nail care, massage" },
+      { name: "Deluxe Pedicure", price: "47", description: "Extended massage, hot stone, premium scrub" },
+      { name: "Royal Spa Pedicure", price: "57", description: "Premium treatment with paraffin, mask, extended massage" },
+      { name: "Kids Pedicure", price: "27", description: "Gentle care for children under 12" }
     ],
     enhancements: [
-      { name: "Acrylic Full Set", price: "45", description: "Classic acrylic nail extensions" },
-      { name: "Gel Extensions", price: "55", description: "Natural-looking gel nail extensions" },
-      { name: "Acrylic Fill", price: "35", description: "Maintenance for acrylic nails" },
-      { name: "Nail Repair", price: "5", description: "Per nail fix or replacement" }
+      { name: "Acrylic Full Set", price: "50", description: "Classic acrylic nail extensions" },
+      { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
+      { name: "Acrylic Fill", price: "40", description: "Maintenance for acrylic nails" },
+      { name: "Nail Repair", price: "5+", description: "Per nail fix or replacement" }
     ],
     additional: [
       { name: "French Tips", price: "10", description: "Classic white tips addition" },
       { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
-      { name: "Gel Polish Removal", price: "15", description: "Safe removal of gel polish" },
-      { name: "Paraffin Treatment", price: "15", description: "Moisturizing wax treatment" }
+      { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
+      { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
     ]
   };
 
