@@ -10,8 +10,8 @@ const Services = () => {
     ],
     pedicures: [
       { name: "Classic Pedicure", price: "33", description: "Foot soak, callus removal, nail care, massage" },
-      { name: "Deluxe Pedicure", price: "47", description: "Extended massage, hot stone, premium scrub" },
-      { name: "Royal Spa Pedicure", price: "57", description: "Premium treatment with paraffin, mask, extended massage" },
+      { name: "Deluxe Pedicure", price: "50", description: "Extended massage, hot stone, premium scrub" },
+      { name: "Royal Spa Pedicure", price: "60", description: "Premium treatment with paraffin, mask, extended massage" },
       { name: "Kids Pedicure", price: "27", description: "Gentle care for children under 12" }
     ],
     enhancements: [
