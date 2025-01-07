@@ -102,20 +102,20 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
-              title: "Signature Manicure",
-              price: "35",
+              title: "Royal Manicure",
+              price: "37",
               description: "Luxurious hand treatment with premium products and perfect polish",
               image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80"
             },
             {
               title: "Deluxe Pedicure",
-              price: "55",
+              price: "50",
               description: "Rejuvenating foot treatment with extended massage",
               image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80"
             },
             {
-              title: "Gel Extensions",
-              price: "75",
+              title: "Gel-X Extensions",
+              price: "60",
               description: "Custom-designed gel extensions for lasting beauty",
               image: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&q=80"
             }
