@@ -40,7 +40,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-[#e97c42]" />
                   <div>
                     <h2 className="font-medium text-[#8B4513]">Location</h2>
-                    <p>123 Beauty Lane, Beverly Hills, CA 90210</p>
+                    <p>9630 Westview Dr, Coral Springs, FL 33076</p>
                   </div>
                 </div>
                 
