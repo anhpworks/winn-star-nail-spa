@@ -21,7 +21,7 @@ const Services = () => {
       { name: "Nail Repair", price: "5+", description: "Per nail fix or replacement" }
     ],
     additional: [
-      { name: "French Tips", price: "10", description: "Classic white tips addition" },
+      { name: "French Tips", price: "7/10", description: "Classic white tips addition" },
       { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
