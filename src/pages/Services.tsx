@@ -3,21 +3,21 @@ import React from 'react';
 const Services = () => {
   const services = {
     manicures: [
-      { name: "Classic Manicure", price: "20", description: "Nail shaping, cuticle care, hand massage, polish" },
+      { name: "Classic Manicure", price: "22", description: "Nail shaping, cuticle care, hand massage, polish" },
       { name: "Gel Manicure", price: "35", description: "Classic manicure with long-lasting gel polish" },
       { name: "Royal Manicure", price: "37", description: "Extended massage, premium products, paraffin treatment" },
       { name: "Dip Powder", price: "45", description: "Durable, chip-resistant alternative to traditional polish" }
     ],
     pedicures: [
       { name: "Classic Pedicure", price: "33", description: "Foot soak, callus removal, nail care, massage" },
-      { name: "Deluxe Pedicure", price: "50", description: "Extended massage, hot stone, premium scrub" },
+      { name: "Deluxe Pedicure", price: "50", description: "Extended massage, premium scrub, hot towel wrap" },
       { name: "Royal Spa Pedicure", price: "60", description: "Premium treatment with paraffin, mask, extended massage" },
-      { name: "Kids Pedicure", price: "27", description: "Gentle care for children under 12" }
+      { name: "Kids Pedicure", price: "30", description: "Gentle care for children under 12" }
     ],
     enhancements: [
-      { name: "Acrylic Full Set", price: "50", description: "Classic acrylic nail extensions" },
+      { name: "Acrylic Full Set", price: "40reg/50gel", description: "Classic acrylic nail extensions" },
       { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
-      { name: "Acrylic Fill", price: "40", description: "Maintenance for acrylic nails" },
+      { name: "Acrylic Fill", price: "30reg/40gel", description: "Maintenance for acrylic nails" },
       { name: "Nail Repair", price: "5+", description: "Per nail fix or replacement" }
     ],
     waxing: [
