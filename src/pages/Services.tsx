@@ -14,7 +14,7 @@ const Services = () => {
       { name: "Royal Spa Pedicure", price: "60", description: "Premium treatment with paraffin, mask, extended massage" },
       { name: "Gel Pedicure", price: "48", description: "Long lasting LED cured premium polish"}
     ],
-    enhancements: [
+    enhancements: [:
       { name: "Acrylic Full Set", price: "40reg/50gel", description: "Classic acrylic nail extensions" },
       { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
       { name: "Acrylic Fill", price: "30reg/40gel", description: "Maintenance for acrylic nails" },
@@ -32,6 +32,12 @@ const Services = () => {
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
       
+    ]
+    kids: [
+      { name: "Mini Mani", price: "20", description: ""},
+      { name: "Mini Gel Mani", price: "32", description: ""},
+      { name: "Mini Pedi", price: "30", description: ""},
+      { name: "Mini Gel Pedi", price: "40", description:""}
     ]
   };
 
@@ -61,6 +67,7 @@ const Services = () => {
         <ServiceSection title="Nail Enhancements" items={services.enhancements} />
         <ServiceSection title="Waxing Services" items={services.waxing} />
         <ServiceSection title="Additional Services" items={services.additional} />
+        <ServiceSection title="Kid services" items={services.kids} />
         
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">Prices may vary based on length, design complexity, or additional services</p>
