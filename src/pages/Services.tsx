@@ -16,7 +16,7 @@ const Services = () => {
     ],
     enhancements: [
       { name: "Acrylic Full Set", price: "40reg/50gel", description: "Classic acrylic nail extensions" },
-      { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
+      { name: "Gel-X Set", price: "60", description: "Natural-looking gel nail extensions" },
       { name: "Acrylic Fill", price: "30reg/40gel", description: "Maintenance for acrylic nails" },
       { name: "Nail Repair", price: "4+", description: "Per nail fix or replacement" }
     ],
@@ -67,7 +67,7 @@ const Services = () => {
         <ServiceSection title="Nail Enhancements" items={services.enhancements} />
         <ServiceSection title="Waxing Services" items={services.waxing} />
         <ServiceSection title="Additional Services" items={services.additional} />
-        <ServiceSection title="Kid services" items={services.kids} />
+        <ServiceSection title="Kid Menu" items={services.kids} />
         
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">Prices may vary based on length, design complexity, or additional services</p>
