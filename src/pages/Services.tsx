@@ -14,7 +14,7 @@ const Services = () => {
       { name: "Royal Spa Pedicure", price: "60", description: "Premium treatment with paraffin, mask, extended massage" },
       { name: "Gel Pedicure", price: "48", description: "Long lasting LED cured premium polish"}
     ],
-    enhancements: [:
+    enhancements: [
       { name: "Acrylic Full Set", price: "40reg/50gel", description: "Classic acrylic nail extensions" },
       { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
       { name: "Acrylic Fill", price: "30reg/40gel", description: "Maintenance for acrylic nails" },
