@@ -30,7 +30,7 @@ const Services = () => {
       { name: "French Tips", price: "7/10", description: "Classic white tips addition" },
       { name: "Nail Art", price: "3+", description: "Per nail, varies by design" },
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
-      { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
+      { name: "Paraffin Treatment", price: "13+", description: "Moisturizing wax treatment" }
       
     ],
     kids: [
