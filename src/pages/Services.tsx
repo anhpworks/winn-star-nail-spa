@@ -12,13 +12,13 @@ const Services = () => {
       { name: "Classic Pedicure", price: "33", description: "Foot soak, callus removal, nail care, massage" },
       { name: "Deluxe Pedicure", price: "50", description: "Extended massage, premium scrub, hot towel wrap" },
       { name: "Royal Spa Pedicure", price: "60", description: "Premium treatment with paraffin, mask, extended massage" },
-      { name: "Kids Pedicure", price: "30", description: "Gentle care for children under 12" }
+      { name: "Gel Pedicure", price: "48", description: "Long lasting LED cured premium polish"}
     ],
     enhancements: [
       { name: "Acrylic Full Set", price: "40reg/50gel", description: "Classic acrylic nail extensions" },
       { name: "Gel Extensions", price: "60", description: "Natural-looking gel nail extensions" },
       { name: "Acrylic Fill", price: "30reg/40gel", description: "Maintenance for acrylic nails" },
-      { name: "Nail Repair", price: "5+", description: "Per nail fix or replacement" }
+      { name: "Nail Repair", price: "4+", description: "Per nail fix or replacement" }
     ],
     waxing: [
       { name: "Eyebrows", price: "12", description: "Precise shaping and grooming" },
@@ -28,9 +28,10 @@ const Services = () => {
     ],
     additional: [
       { name: "French Tips", price: "7/10", description: "Classic white tips addition" },
-      { name: "Nail Art", price: "5+", description: "Per nail, varies by design" },
+      { name: "Nail Art", price: "3+", description: "Per nail, varies by design" },
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
+      
     ]
   };
 
