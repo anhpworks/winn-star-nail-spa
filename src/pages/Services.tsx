@@ -34,10 +34,10 @@ const Services = () => {
       
     ],
     kids: [
-      { name: "Mini Mani", price: "20", description: ""},
-      { name: "Mini Gel Mani", price: "32", description: ""},
-      { name: "Mini Pedi", price: "30", description: ""},
-      { name: "Mini Gel Pedi", price: "40", description:""}
+      { name: "Mini Mani", price: "20", description: "Hand care including gentle cuticle cleaning, nail filing, and polish"},
+      { name: "Mini Gel Mani", price: "32", description: "Mini mani with long lasting cured gel polish"},
+      { name: "Mini Pedi", price: "30", description: "Foot care including a moisturizer, a scrub, and nail polish "},
+      { name: "Mini Gel Pedi", price: "40", description:"Mini pedi with long lasting cured gel polish"}
     ]
   };
 
