@@ -32,7 +32,7 @@ const Services = () => {
       { name: "Gel Polish Removal", price: "15+", description: "Safe removal of gel polish" },
       { name: "Paraffin Treatment", price: "10+", description: "Moisturizing wax treatment" }
       
-    ]
+    ],
     kids: [
       { name: "Mini Mani", price: "20", description: ""},
       { name: "Mini Gel Mani", price: "32", description: ""},
