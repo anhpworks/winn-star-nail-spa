@@ -256,7 +256,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Dip powder set",
+                title: "Dip Powder Set",
                 price: "45",
                 description: "Beautiful, durable, revitalizing.",
                 image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80"
@@ -268,9 +268,9 @@ const Home = () => {
                 image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80"
               },
               {
-                title: "Gel-X Extensions",
-                price: "60",
-                description: "Custom-designed gel extensions for lasting beauty",
+                title: "Acrylic Sets",
+                price: "40/50",
+                description: "Acrlyic extensions for lasting beauty",
                 image: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&q=80"
               }
             ].map((service, index) => (
