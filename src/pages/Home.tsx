@@ -256,9 +256,9 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Royal Manicure",
-                price: "37",
-                description: "Luxurious hand treatment with premium products and perfect polish",
+                title: "Dip powder set",
+                price: "45",
+                description: "Beautiful, durable, revitalizing.",
                 image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80"
               },
               {
