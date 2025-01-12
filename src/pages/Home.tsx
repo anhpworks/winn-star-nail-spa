@@ -270,7 +270,7 @@ const Home = () => {
               {
                 title: "Acrylic Sets",
                 price: "40/50",
-                description: "Acrlyic extensions for lasting beauty",
+                description: "Acrylic extensions for lasting beauty",
                 image: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&q=80"
               }
             ].map((service, index) => (
