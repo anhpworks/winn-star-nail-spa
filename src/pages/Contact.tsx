@@ -58,8 +58,8 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-[#e97c42]" />
                   <div>
                     <h2 className="font-medium text-[#8B4513]">Email</h2>
-                    <a href="mailto:hello@winnstarnailspa.com" className="hover:text-[#e97c42] transition-colors">
-                      hello@winnstarnailspa.com
+                    <a href="mailto:winnnailspa9630@gmail.com" className="hover:text-[#e97c42] transition-colors">
+                      winnnailspa9630@gmail.com
                     </a>
                   </div>
                 </div>
