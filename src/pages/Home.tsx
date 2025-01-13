@@ -311,7 +311,7 @@ const Home = () => {
                 <div className="space-y-8">
                   {[
                     { icon: MapPin, text: "9630 Westview Dr, Coral Springs, FL 33076" },
-                    { icon: Mail, text: "hello@winnstarnailspa.com" },
+                    { icon: Mail, text: "winnnailspa9630@gmail.com" },
                     { icon: Clock, text: "Mon-Sat: 9:00 AM - 7:00 PM\nSun: 10:00 AM - 5:00 PM" }
                   ].map((item, index) => (
                     <motion.div
