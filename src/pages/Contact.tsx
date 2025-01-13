@@ -14,8 +14,8 @@ export default function Contact() {
     try {
       setStatus('sending');
       await emailjs.sendForm(
-        'service_1bascuj',
-        'template_0tkzojh',
+        'service_1bascuj', // Replace with your service ID
+        'template_0tkzojh', // Replace with your template ID
         formRef.current,
         '5VrBSQM1NvNPjne5W'
       );
@@ -58,8 +58,8 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-[#e97c42]" />
                   <div>
                     <h2 className="font-medium text-[#8B4513]">Email</h2>
-                    <a href="mailto:winnnailspa9630@gmail.com" className="hover:text-[#e97c42] transition-colors">
-                      winnnailspa9630@gmail.com
+                    <a href="mailto:hello@winnstarnailspa.com" className="hover:text-[#e97c42] transition-colors">
+                      hello@winnstarnailspa.com
                     </a>
                   </div>
                 </div>
@@ -92,14 +92,14 @@ export default function Contact() {
                   <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                     <input
                       type="text"
-                      name="user_name"
+                      name="from_name"
                       placeholder="Your Name"
                       required
                       className="w-full p-3 rounded border border-[#e97c42]/20 focus:outline-none focus:border-[#e97c42]"
                     />
                     <input
                       type="email"
-                      name="user_email"
+                      name="from_email"
                       placeholder="Your Email"
                       required
                       className="w-full p-3 rounded border border-[#e97c42]/20 focus:outline-none focus:border-[#e97c42]"
